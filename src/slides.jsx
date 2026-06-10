@@ -514,7 +514,7 @@ export const slides = [
           è tutto gratis. Paghi solo <b>5,90€</b> per ogni partita premium effettivamente
           giocata. Nessun costo fisso, nessun rischio.
         </p>
-        <div className="promo-limit reveal d4">⏳ Promo in corso valida solo per i <b>primi 20 impianti</b></div>
+        <div className="promo-limit reveal d4">⏳ Valida fino al <b>30 giugno</b> o per i <b>primi 20 impianti</b></div>
       </div>
     ),
   },
