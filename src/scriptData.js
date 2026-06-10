@@ -105,7 +105,7 @@ export const scriptData = [
     sec: 75,
     say: '"E qui arriva la parte migliore. Per partire, oggi, non ti chiedo un solo euro di installazione."',
     points: [
-      'Promo Estate 2026: installazione, sensore, telecamera, app — tutto GRATIS. Normalmente sono 2.000€.',
+      'Promo Estate 2026: installazione, sensore, telecamera, app — tutto GRATIS. Normalmente sono 1.900€.',
       'L\'unico costo che resta è 5,90€ a partita premium effettivamente giocata. Nessun costo fisso, nessun rischio, nessun anticipo.',
       'L\'urgenza è reale: la promo vale fino al 30 giugno o per i primi 20 impianti — quel che arriva prima. Dopo si torna al prezzo pieno.',
       'Chiudi guardandolo negli occhi: "Fissiamo una partita demo sul tuo campo. Te lo faccio vedere dal vivo — e saranno i tuoi giocatori a decidere per te."',

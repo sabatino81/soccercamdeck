@@ -310,7 +310,7 @@ export const slides = [
           <div className="ecard accent">
             <div className="ec-head">🚀 Rientro investimento</div>
             <div className="payback"><b>~20</b><span>mesi</span></div>
-            <p>Setup iniziale <b>2.000€</b>. Aumentando l'adozione delle partite premium, il rientro accelera.</p>
+            <p>Setup iniziale <b>1.900€</b>. Aumentando l'adozione delle partite premium, il rientro accelera.</p>
           </div>
         </div>
       </>
@@ -458,7 +458,7 @@ export const slides = [
         <div className="faqgrid reveal d2">
           <div className="faqcard">
             <div className="q"><span className="fi">💶</span>C'è un costo iniziale?</div>
-            <div className="a">Sì, setup e installazione impianto: <b>2.000€</b> una tantum.</div>
+            <div className="a">Sì, setup e installazione impianto: <b>1.900€</b> una tantum.</div>
           </div>
           <div className="faqcard">
             <div className="q"><span className="fi">🎯</span>Quanto costa ogni partita premium?</div>
@@ -496,7 +496,7 @@ export const slides = [
         <div className="promo-grid reveal d2">
           <div className="promo-item free">
             <span className="pt">Installazione &amp; setup impianto</span>
-            <span className="old">2.000€</span>
+            <span className="old">1.900€</span>
             <span className="now">GRATIS</span>
           </div>
           <div className="promo-item free">

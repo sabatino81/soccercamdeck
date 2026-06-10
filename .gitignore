@@ -3,3 +3,13 @@ dist
 .DS_Store
 *.local
 .vercel
+
+# Android / Capacitor build
+*.apk
+android/.gradle
+android/build
+android/app/build
+android/local.properties
+android/app/src/main/assets/public
+android/capacitor.settings.gradle
+android/app/src/main/assets/capacitor.config.json

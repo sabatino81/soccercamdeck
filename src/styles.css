@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&family=Playfair+Display:wght@700;900&display=swap');
-
 :root{
   --bg:#02040a; --deep:#06101d; --panel:rgba(255,255,255,.075); --panel2:rgba(255,255,255,.13);
   --text:#f8fbff; --muted:#a9b7cb; --green:#3dff9d; --cyan:#28d7ff; --yellow:#ffe25c;
