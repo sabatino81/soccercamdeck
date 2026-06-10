@@ -232,6 +232,10 @@ table{width:100%;border-collapse:separate;border-spacing:0 12px;margin-top:26px}
 .promo-item.free .now{background:linear-gradient(90deg,var(--green),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
 .promo-item.keep .now{color:#ffe25c;text-shadow:0 0 26px rgba(255,226,92,.32)}
 .promo-item .note{display:block;font-size:12px;color:var(--muted);margin-top:7px}
+.promo-two{display:flex;gap:18px;justify-content:center;margin-top:2px}
+.promo-two>div{display:flex;flex-direction:column;align-items:center;gap:2px}
+.promo-two small{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;font-weight:800}
+.promo-two b{font-size:30px;font-weight:950;letter-spacing:-.04em;color:#ffe25c;text-shadow:0 0 22px rgba(255,226,92,.32)}
 .promo-item.keep:before{content:"";position:absolute;inset:-60% -20%;background:linear-gradient(90deg,transparent,rgba(255,210,74,.18),transparent);transform:rotate(18deg) translateX(-120%)}
 .active .promo-item.keep:before{animation:cardScan 2.2s ease .6s 1}
 .promo-limit{display:inline-flex;align-items:center;gap:10px;margin-top:18px;padding:12px 20px;border-radius:999px;background:rgba(255,210,74,.1);border:1px solid rgba(255,210,74,.5);color:#ffe25c;font-weight:950;font-size:17px;box-shadow:0 0 32px rgba(255,210,74,.2)}

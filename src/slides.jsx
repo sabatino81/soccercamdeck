@@ -505,14 +505,17 @@ export const slides = [
           </div>
           <div className="promo-item keep">
             <span className="pt">Costo a partita premium</span>
-            <span className="now">5,90€</span>
+            <div className="promo-two">
+              <div><small>Calcetto</small><b>5,90€</b></div>
+              <div><small>Calciotto</small><b>8,90€</b></div>
+            </div>
             <span className="note">l'unico costo che resta</span>
           </div>
         </div>
         <p className="reveal d3" style={{ marginTop: 22 }}>
           Con la Promo Estate 2026 <b>non paghi l'impianto di telemetria né l'installazione</b>:
-          è tutto gratis. Paghi solo <b>5,90€</b> per ogni partita premium effettivamente
-          giocata. Nessun costo fisso, nessun rischio.
+          è tutto gratis. Paghi solo <b>5,90€</b> a partita per il calcetto e <b>8,90€</b> per
+          il calciotto, solo sulle partite premium giocate. Nessun costo fisso, nessun rischio.
         </p>
         <div className="promo-limit reveal d4">⏳ Valida fino al <b>30 giugno</b> o per i <b>primi 20 impianti</b></div>
       </div>
