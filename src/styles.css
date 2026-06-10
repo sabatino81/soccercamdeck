@@ -76,7 +76,7 @@ table{width:100%;border-collapse:separate;border-spacing:0 12px;margin-top:26px}
 .fifa{position:absolute;left:-14px;bottom:-10px;width:132px;border-radius:16px;transform:rotate(-8deg);box-shadow:0 26px 60px rgba(0,0,0,.6),0 0 56px rgba(255,210,74,.20);border:1px solid rgba(255,255,255,.2);z-index:4;background:#05080f}
 .active .fifa{animation:fifaIn 1s cubic-bezier(.16,1,.18,1) .35s both}
 @keyframes fifaIn{from{opacity:0;transform:rotate(-18deg) translateY(34px) scale(.78)}to{opacity:1;transform:rotate(-8deg) translateY(0) scale(1)}}
-@media(max-width:900px){.hero{grid-template-columns:1fr;gap:20px}.herotitle{font-size:42px}.hero-media{order:-1}.hero-media:before{width:260px;height:260px}.hero-stage{grid-template-columns:1fr;gap:14px}.hero-phone{max-width:200px}.fifa{width:104px}}
+@media(max-width:900px){.hero{grid-template-columns:1fr;gap:20px}.herotitle{font-size:42px}.hero-media:before{width:260px;height:260px}.hero-stage{grid-template-columns:1fr;gap:14px}.hero-phone{max-width:200px}.fifa{width:104px}}
 
 /* ---- SLIDE PROBLEMA (slide 2) ---- */
 .kicker.bad{border-color:rgba(255,77,109,.42);background:rgba(255,77,109,.1);color:var(--red);box-shadow:0 0 38px rgba(255,77,109,.16)}
@@ -125,7 +125,7 @@ table{width:100%;border-collapse:separate;border-spacing:0 12px;margin-top:26px}
 /* ---- SLIDE MODELLO ECONOMICO (6+7 fuse) ---- */
 .econ-top{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center;margin-top:20px}
 .econ-top .bcast{aspect-ratio:16/9}
-@media(max-width:900px){.econ-top{grid-template-columns:1fr;gap:16px}}
+@media(max-width:900px){.econ-top{grid-template-columns:1fr;gap:16px}.econ-top .bcast{order:-1}}
 .econ-flow{display:flex;gap:16px;align-items:stretch}
 .ebox{flex:1;padding:20px;border-radius:24px;background:rgba(255,255,255,.07);border:1px solid var(--line);text-align:center;box-shadow:0 18px 60px rgba(0,0,0,.22)}
 .ebox b{font-size:40px;color:#fff;display:block;letter-spacing:-.04em}
@@ -334,6 +334,56 @@ table{width:100%;border-collapse:separate;border-spacing:0 12px;margin-top:26px}
   .script-h,.scard h3,.scard .say{color:#000!important}
   .scard{break-inside:avoid;background:#fff!important;border:1px solid #ccc!important;box-shadow:none!important;backdrop-filter:none!important}
   .scard li,.script-sub{color:#333!important}
+}
+
+/* ===== RESPONSIVE / MOBILE ===== */
+@media(max-width:900px){
+  /* slide scrollabili: niente più contenuto tagliato sui telefoni */
+  .slide{justify-content:flex-start;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;padding:50px 16px 90px}
+  .slide:before,.slide:after{display:none}        /* via la cornice interna: spazio e niente clip */
+  .content{margin:auto 0}                          /* centra se corto, scrolla se lungo */
+  h1{font-size:38px;margin:14px 0 14px}
+  h2{font-size:30px}
+  .bigline{font-size:21px}
+  p{font-size:16px}
+  .kicker{font-size:11px}
+
+  /* hero */
+  .herotitle{font-size:38px}
+  .hero-stage{gap:12px}
+  .hero-phone{max-width:200px}
+  .perf{padding:13px}
+  .perfrow{grid-template-columns:64px 1fr 22px}
+
+  /* problema */
+  .lost .lost-mid{font-size:15px}
+  .flatline{gap:6px}.fstep{font-size:12px;padding:7px 10px}
+
+  /* come funziona: 4 step in colonna singola, media più bassi */
+  .flow{grid-template-columns:1fr;gap:12px}
+  .flowcard .media-frame{height:200px}
+  .valuerow{gap:8px}.vpill{font-size:13px;padding:9px 13px}
+
+  /* economico */
+  .econ-flow{gap:10px}.ebox{padding:14px}.ebox b{font-size:30px}
+  .ec-nums b{font-size:22px}
+
+  /* tornei: solo la prima pagina del giornale */
+  .gazzetta{width:100%;max-width:360px}
+
+  /* sponsor / faq / promo già a 1 colonna dai blocchi sopra */
+  .cta{font-size:36px}
+
+  /* nav: pallini un po' più in alto per non coprire il contenuto */
+  .dots{bottom:30px}
+}
+@media(max-width:480px){
+  .slide{padding:46px 12px 84px}
+  h1,.herotitle{font-size:32px}
+  h2{font-size:26px}
+  .cta,.promo .cta{font-size:30px}
+  .numbers,.ec-nums{grid-template-columns:1fr 1fr}
+  .statstrip{grid-template-columns:1fr 1fr}
 }
 
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.slide,.slide.active,.slide.prev,.slide.next{filter:none!important}}
