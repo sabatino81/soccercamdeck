@@ -58,6 +58,18 @@ export const scriptData = [
     ],
   },
   {
+    title: 'Confronto col mercato — quanto costa farselo da soli',
+    sec: 60,
+    say: '"Magari stai pensando: e se me lo facessi da solo? Facciamo due conti onesti, insieme."',
+    points: [
+      'Una telecamera AI che segue l\'azione (Veo, Pixellot, XbotGo): 900–1.500€, più 80–200€ al mese di abbonamento.',
+      'I sensori di performance per la squadra — servono 10–14 unità (Catapult, STATSports): altri 2.500–4.000€.',
+      'Aggiungi installazione, software per highlights e statistiche, e qualcuno che monta i video: si arriva facile a 4.000–8.000€, con migliaia di euro all\'anno ricorrenti.',
+      'E il punto vero: ti ritrovi pezzi separati da far parlare tra loro. Nessuno te lo vende integrato per un campo amatoriale.',
+      'Stacca così: "Con SoccerQ è tutto in uno, a 1.900€. E il resto lo paghi solo quando incassi."',
+    ],
+  },
+  {
     title: 'Modello economico — chi paga cosa (IMPORTANTE)',
     sec: 90,
     say: '"E adesso la parte che ti interessa di più: i soldi. E qui è tutto semplice e onesto — tu guadagni, e a noi va davvero pochissimo."',

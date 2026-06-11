@@ -274,6 +274,49 @@ export const slides = [
   {
     content: (
       <>
+        <div className="kicker reveal">Confronto col mercato</div>
+        <h2 className="reveal d1">
+          Farselo da soli? <span className="gradient">Ecco quanto costa.</span>
+        </h2>
+        <div className="vs reveal d2">
+          <div className="vs-col diy">
+            <h3>🛠️ Fai-da-te</h3>
+            <div className="vs-row"><span>📹 Telecamera AI auto-recording<br /><small style={{ opacity: 0.6 }}>Veo, Pixellot, XbotGo…</small></span><b>900–1.500€<br />+80–200€/mese</b></div>
+            <div className="vs-row"><span>⚡ Sensori/GPS performance<br /><small style={{ opacity: 0.6 }}>~10–14 unità · Catapult, STATSports</small></span><b>2.500–4.000€</b></div>
+            <div className="vs-row"><span>🔧 Installazione, rete, storage</span><b>300–800€</b></div>
+            <div className="vs-row"><span>🎬 Software + montaggio video</span><b>costo continuo</b></div>
+            <div className="vs-total">
+              Totale fai-da-te
+              <span className="big">≈ 4.000–8.000€</span>
+              <span className="rec">+ ≈ 1.500–3.000€/anno · e resta tutto separato</span>
+            </div>
+          </div>
+
+          <div className="vs-mid">VS</div>
+
+          <div className="vs-col sq">
+            <h3>⚽ Con SoccerQ</h3>
+            <div className="sq-price">1.900€<small>tutto incluso, una tantum</small></div>
+            <div className="vs-row" style={{ borderTop: '1px solid var(--line)' }}>
+              <span>Poi paghi solo a partita premium</span>
+              <b>5,90€ / 8,90€</b>
+            </div>
+            <ul className="sq-list">
+              <li>Telecamera + sensori inclusi</li>
+              <li>Video, statistiche, highlights</li>
+              <li>Reel social + Gazzetta del campo</li>
+              <li>Tutto integrato e automatico</li>
+              <li>Zero gestione, zero operatori</li>
+            </ul>
+          </div>
+        </div>
+        <div className="vs-foot reveal d3">* Prezzi di mercato indicativi (cam &amp; sensori venduti separatamente, spesso con abbonamento).</div>
+      </>
+    ),
+  },
+  {
+    content: (
+      <>
         <div className="kicker reveal">Modello economico</div>
         <h2 className="reveal d1">
           Il premium si paga <span className="gradient">solo quando viene venduto.</span>
